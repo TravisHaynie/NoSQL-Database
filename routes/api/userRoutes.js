@@ -7,7 +7,10 @@ const {
   deleteUser,
   addFriend,
   removeFriend,
+  deleteAllUsers,
 } = require('../../controllers/userController');
+
+router.delete('/deleteAll', deleteAllUsers); // Add this new route
 
 // /api/users
 router.route('/').get(getUsers).post(createUser);

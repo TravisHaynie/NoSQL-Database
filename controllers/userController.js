@@ -68,4 +68,11 @@ module.exports = {
       .then((user) => res.json(user))
       .catch((err) => res.status(500).json(err));
   },
+  
+  deleteAllUsers(req, res) {
+    User.deleteMany({})
+      .then(() => Thought.deleteMany({}))
+      .then(() => res.json({ message: 'All users and their thoughts have been deleted!' }))
+      .catch((err) => res.status(500).json(err));
+  },
 };
