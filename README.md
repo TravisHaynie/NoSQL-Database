@@ -6,8 +6,13 @@ This project demonstrates the use of a NoSQL database in a Node.js environment. 
 ## Video Walkthrough
 
 
+https://github.com/user-attachments/assets/d673deb2-cb0e-43a3-827e-8b3738eaa768
+
+
+
 ## Screenshot
-(Insert screenshot here)
+![Screenshot 2024-09-18 205004](https://github.com/user-attachments/assets/cbfbacba-4c57-4df3-8755-36a3f521fb42)
+
 
 ## Table of Contents
 - [Description](#description)
